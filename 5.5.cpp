@@ -12,7 +12,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    double x1, y1, x2, y2, x3, y3, p, P, S, a, b, c;
+    float x1, y1, x2, y2, x3, y3, p, P, S, a, b, c;
     std::cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
     a = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
     b = sqrt(pow(x2 - x3, 2) + pow(y2 - y3, 2));
